@@ -1,5 +1,5 @@
 FROM python:2.7
-MAINTAINER Thanabodee Charoenpiriyakij <wingyplus@gmail.com>
+MAINTAINER Thanabodee Charoenpiriyakij <wingyminus@gmail.com>
 
 RUN pip install \
       requests \
