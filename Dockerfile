@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:2-alpine
 MAINTAINER Thanabodee Charoenpiriyakij <wingyminus@gmail.com>
 
 RUN pip install \
@@ -6,3 +6,5 @@ RUN pip install \
       robotframework \
       robotframework-selenium2library \
       robotframework-requests
+
+ENTRYPOINT ["robot"]
